@@ -1,0 +1,254 @@
+.modal__body {
+
+    padding: 60px;
+
+    max-width: 870px;
+
+    background: var(--fff);
+
+    border-radius: var(--radius);
+
+    position: relative;
+
+}
+
+.modal input#email {
+}
+
+
+
+.modal input {
+
+    border-radius: var(--radius);
+
+}
+
+.modal {
+    justify-content: center;
+    align-items: center;
+    background: #00000047;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.block__modal_profile {
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+}
+
+
+
+.block__modal_profile__avatar {
+
+    width: 25%;
+
+    max-height: 270px;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+.block__modal_profile__avatar label {
+
+padding: 0;
+
+position: relative;
+}
+
+
+
+.block__modal_profile__avatar img {
+
+    border-radius: var(--radius);
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+
+.block__modal_profile__input {
+
+width: 73%;
+
+display: flex;
+
+gap: 16px;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+}
+
+.block__modal_profile__input label {
+
+width: 48%;
+}
+
+
+
+.modal .password-container {
+
+    width: 100%;
+
+}
+
+
+
+.block__modal_profile__input input#telegram {
+
+    margin-top: 0px !important;
+
+}
+
+.modal__title span {
+
+    position: absolute;
+
+    right: 0;
+
+    top: 0;
+
+}
+
+
+
+.modal__title {
+
+    position: relative;
+
+}
+
+.block__modal_profile__input p {
+
+    margin-bottom: 5px;
+
+}
+
+.modal__button {
+
+    display: flex;
+
+    align-items: center;
+
+    align-content: center;
+
+    justify-content: center;
+
+    padding-top: 20px;
+
+    gap: 20px;
+
+}
+
+.modal__title h6 {
+
+    margin-bottom: 0;
+
+
+
+    font-size: 30px;
+
+    font-weight: 500;
+
+    line-height: 30px;
+
+    text-align: center;
+
+}
+
+
+
+.modal__title {
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.modal__button button:nth-child(2) {
+
+    background: none;
+
+    color: var(--block);
+
+    padding: 0;
+
+}
+
+.modal .password-container p {
+
+    margin-bottom: 5px;
+
+    padding-top: 20px;
+
+}
+
+.yes__button__no {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding-top: 25px;
+
+    gap: 20px;
+
+    align-content: center;
+}
+
+.yes__button__no a {
+    font-size: 16px;
+    font-family: 'MTSTextMedium';
+    font-weight: 600;
+    line-height: 10px;
+    text-align: center;
+}
+
+label.yes__button__no button {
+    max-width: 130px;
+}
+
+span.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.modal__form.offlineModal p {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 600;
+}   
+.password-container .password-toggle {
+    top: 75%;
+}   
+
+.modal__flex__center {
+    display:flex;
+    justify-items: center;
+    justify-content:center;
+    align-content:center;
+    align-items: center;
+}
